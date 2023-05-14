@@ -1,0 +1,51 @@
+.form-control {
+  background-color: transparent !important;
+  color: #eeeeee !important;
+}
+
+.form-control:focus {
+  background-color: transparent !important;
+  color: #eeeeee !important;
+}
+
+.password-input {
+  border-right: none !important;
+}
+
+.toggle-show-password-icon {
+  background-color: transparent !important;
+  border-left: none !important;
+  color: #eeeeee !important;
+}
+
+.user-form-container {
+  padding: 3rem 5rem;
+}
+
+.user-form-title {
+  user-select: none;
+  font-weight: bolder;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-form-title:hover {
+  transform: scale(1.1);
+  color: #00adb5;
+}
+
+.user-link {
+  text-decoration: none;
+  color: #00adb5;
+  transition: all 0.3s ease-in-out;
+}
+
+.user-link:hover {
+  color: #ff2e63;
+}
+
+.user-input-error {
+  color: #ff2e63;
+  text-align: center;
+  user-select: none;
+}
